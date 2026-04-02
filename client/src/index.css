@@ -43,19 +43,19 @@
 }
 
 :root {
-  /* Design System: Modern Professional with Energetic Accents */
-  /* Primary accent: Vibrant Red for CTAs and highlights */
-  --primary: #e63946;
+  /* Design System: Rowptimizer - Professional Blue/Green (Airtable-inspired) */
+  /* Primary accent: Professional Blue for CTAs and highlights */
+  --primary: #0052CC;
   --primary-foreground: #ffffff;
-  /* Secondary accent: Warm Orange for supporting elements */
-  --secondary: #f77f00;
+  /* Secondary accent: Teal/Green for supporting elements */
+  --secondary: #00A699;
   --secondary-foreground: #ffffff;
   /* Sidebar styling */
-  --sidebar-primary: #e63946;
+  --sidebar-primary: #0052CC;
   --sidebar-primary-foreground: #ffffff;
   /* Chart colors using accent palette */
-  --chart-1: #e63946;
-  --chart-2: #f77f00;
+  --chart-1: #0052CC;
+  --chart-2: #00A699;
   --chart-3: #1a1a1a;
   --chart-4: #2d3436;
   --chart-5: #f8f9fa;
@@ -70,7 +70,7 @@
   --popover-foreground: #1a1a1a;
   --muted: #e8e8e8;
   --muted-foreground: #666666;
-  --accent: #f77f00;
+  --accent: #00A699;
   --accent-foreground: #ffffff;
   --destructive: #e63946;
   --destructive-foreground: #ffffff;
@@ -86,9 +86,9 @@
 
 .dark {
   /* Dark theme (if needed in future) */
-  --primary: #e63946;
+  --primary: #0052CC;
   --primary-foreground: #ffffff;
-  --sidebar-primary: #e63946;
+  --sidebar-primary: #0052CC;
   --sidebar-primary-foreground: #ffffff;
   --background: #0f0f0f;
   --foreground: #f8f9fa;
@@ -96,19 +96,19 @@
   --card-foreground: #f8f9fa;
   --popover: #1a1a1a;
   --popover-foreground: #f8f9fa;
-  --secondary: #f77f00;
+  --secondary: #00A699;
   --secondary-foreground: #ffffff;
   --muted: #333333;
   --muted-foreground: #999999;
-  --accent: #f77f00;
+  --accent: #00A699;
   --accent-foreground: #ffffff;
   --destructive: #e63946;
   --destructive-foreground: #ffffff;
   --border: #333333;
   --input: #1a1a1a;
-  --ring: #e63946;
-  --chart-1: #e63946;
-  --chart-2: #f77f00;
+  --ring: #0052CC;
+  --chart-1: #0052CC;
+  --chart-2: #00A699;
   --chart-3: #f8f9fa;
   --chart-4: #e0e0e0;
   --chart-5: #1a1a1a;

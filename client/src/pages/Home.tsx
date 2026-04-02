@@ -19,7 +19,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-border">
         <div className="container flex items-center justify-between py-4">
           <div className="text-2xl font-poppins font-bold text-foreground">
-            Airtable<span className="text-primary">.</span>
+            Rowptimizer<span className="text-primary">.</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-sm font-medium text-foreground hover:text-primary transition">Services</a>
@@ -40,17 +40,17 @@ export default function Home() {
             {/* Left: Text Content */}
             <div className="flex flex-col justify-center">
               <div className="inline-block bg-gray-100 px-4 py-2 rounded-full w-fit mb-6">
-                <span className="text-sm text-gray-600">Your business process & workflow automation consultants</span>
+                <span className="text-sm text-gray-600">Automation Made Simple</span>
               </div>
               
               <h1 className="text-6xl md:text-7xl font-poppins font-bold text-foreground mb-8 leading-tight tracking-tight">
-                Become the <span className="bg-primary text-white px-3 py-1 inline-block">business</span>
+                Optimize your <span className="bg-primary text-white px-3 py-1 inline-block">workflows</span>
                 <br />
-                everyone wants to beat
+                automate your success
               </h1>
               
               <p className="text-base md:text-lg text-gray-700 mb-8 leading-relaxed font-light">
-                Your software tools should help you work smarter. Or you risk getting lost in the noise. We'll fine-tune your tech stack so you can start moving faster, wowing your customers — and worrying your competition.
+                Rowptimizer helps small US businesses streamline operations through expert Airtable configuration and workflow automation. We transform complex processes into simple, efficient systems that save time and drive growth.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -126,19 +126,19 @@ export default function Home() {
             {[
               {
                 quote: "Everyone talks about how amazing Zapier is, but no one said how hard it would be to implement!",
-                color: "border-l-4 border-primary bg-red-50"
+                color: "border-l-4 border-primary bg-blue-50"
               },
               {
                 quote: "We thought these apps would simplify our workflows, but we're spending half our time playing whack-a-mole with bugs.",
-                color: "border-l-4 border-secondary bg-orange-50"
+                color: "border-l-4 border-secondary bg-teal-50"
               },
               {
                 quote: "Sure, we're probably overlooking valuable features in our CRM, but we're not experts. How do we even begin?",
-                color: "border-l-4 border-primary bg-red-50"
+                color: "border-l-4 border-primary bg-blue-50"
               },
               {
                 quote: "I can't spend my days watching workflow automation tutorials. I've got a business to run!",
-                color: "border-l-4 border-secondary bg-orange-50"
+                color: "border-l-4 border-secondary bg-teal-50"
               }
             ].map((testimonial, idx) => (
               <div key={idx} className={`p-8 rounded-lg ${testimonial.color}`}>
@@ -245,9 +245,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="text-xl font-poppins font-bold text-white mb-4">
-                Airtable<span className="text-primary">.</span>
+                Rowptimizer<span className="text-primary">.</span>
               </div>
-              <p className="text-sm">Automation consulting for small US businesses.</p>
+              <p className="text-sm">Automation Made Simple. Expert Airtable consulting for growing businesses.</p>
             </div>
             <div>
               <h4 className="font-semibold text-white mb-4">Services</h4>
@@ -275,7 +275,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>&copy; 2026 Airtable Consulting. All rights reserved.</p>
+            <p>&copy; 2026 Rowptimizer. All rights reserved.</p>
           </div>
         </div>
       </footer>
