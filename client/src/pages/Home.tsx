@@ -69,7 +69,7 @@ export default function Home() {
             {/* Right: Visual Element */}
             <div className="hidden md:flex justify-center">
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/pasted_file_D5dMPT_image_41e241a8.png"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/pasted_file_J3AhqI_image_27744f4c.png"
                 alt="Process optimization and workflow automation"
                 className="w-full h-auto"
               />
