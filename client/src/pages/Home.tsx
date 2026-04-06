@@ -171,8 +171,8 @@ export default function Home() {
 
             <div className="flex justify-center">
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/automation-illustration-U7NxUu8SxTrjhcihySUvfw.webp"
-                alt="Automation services"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/pasted_file_a6tG0i_image_607e4f9f.png"
+                alt="Email and workflow automation"
                 className="w-full h-auto max-w-md"
               />
             </div>
