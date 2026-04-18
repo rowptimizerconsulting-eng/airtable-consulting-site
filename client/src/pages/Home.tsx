@@ -46,7 +46,7 @@ export default function Home() {
               <h1 className="text-6xl md:text-7xl font-poppins font-bold text-foreground mb-8 leading-tight tracking-tight">
                 Optimize your <span className="bg-primary text-white px-3 py-1 inline-block">workflows</span>
                 <br />
-                <span className="bg-accent text-foreground px-3 py-1 inline-block">automate</span> your success
+                automate your success
               </h1>
               
               <p className="text-base md:text-lg text-gray-700 mb-8 leading-relaxed font-light">
