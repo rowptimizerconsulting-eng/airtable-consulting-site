@@ -130,7 +130,7 @@ export default function Home() {
               },
               {
                 quote: "We thought these apps would simplify our workflows, but we're spending half our time playing whack-a-mole with bugs.",
-                color: "border-l-4 border-secondary bg-teal-50"
+                color: "border-l-4 border-accent bg-yellow-50"
               },
               {
                 quote: "Sure, we're probably overlooking valuable features in our CRM, but we're not experts. How do we even begin?",
@@ -138,7 +138,7 @@ export default function Home() {
               },
               {
                 quote: "I can't spend my days watching workflow automation tutorials. I've got a business to run!",
-                color: "border-l-4 border-secondary bg-teal-50"
+                color: "border-l-4 border-accent bg-yellow-50"
               }
             ].map((testimonial, idx) => (
               <div key={idx} className={`p-8 rounded-lg ${testimonial.color}`}>
@@ -214,7 +214,7 @@ export default function Home() {
                       <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
                     )}
                   </div>
-                  <div className="text-primary flex-shrink-0">
+                  <div className={`${idx % 2 === 0 ? 'text-primary' : 'text-accent'} flex-shrink-0`}>
                     <ArrowRight className={`w-5 h-5 transition-transform ${expandedFaq === idx ? 'rotate-90' : ''}`} />
                   </div>
                 </div>
@@ -233,8 +233,11 @@ export default function Home() {
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Let's discuss how Airtable automation can transform your business operations and save your team valuable time.
           </p>
-          <Button className="bg-primary hover:bg-red-700 text-white text-lg px-8 py-6">
+          <Button className="bg-primary hover:bg-blue-800 text-white text-lg px-8 py-6 mr-4">
             Schedule your free discovery session
+          </Button>
+          <Button className="bg-accent hover:bg-yellow-500 text-foreground text-lg px-8 py-6">
+            Learn More
           </Button>
         </div>
       </section>
