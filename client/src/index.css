@@ -48,7 +48,7 @@
   --primary: #0052CC;
   --primary-foreground: #ffffff;
   /* Secondary accent: Yellow/Gold for energetic supporting elements */
-  --secondary: #F5A623;
+  --secondary: #D4A574;
   --secondary-foreground: #1a1a1a;
   /* Tertiary accent: Teal/Green for additional supporting elements */
   --tertiary: #00A699;
@@ -73,7 +73,7 @@
   --popover-foreground: #1a1a1a;
   --muted: #e8e8e8;
   --muted-foreground: #666666;
-  --accent: #F5A623;
+  --accent: #D4A574;
   --accent-foreground: #1a1a1a;
   --destructive: #e63946;
   --destructive-foreground: #ffffff;
@@ -103,7 +103,7 @@
   --secondary-foreground: #ffffff;
   --muted: #333333;
   --muted-foreground: #999999;
-  --accent: #F5A623;
+  --accent: #D4A574;
   --accent-foreground: #1a1a1a;
   --destructive: #e63946;
   --destructive-foreground: #ffffff;
