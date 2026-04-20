@@ -50,7 +50,7 @@ export default function Home() {
               </h1>
               
               <p className="text-base md:text-lg text-gray-700 mb-8 leading-relaxed font-light">
-                Rowptimizer helps small US businesses <span className="font-semibold text-accent">streamline operations</span> through expert Airtable configuration and workflow automation. We transform complex processes into simple, efficient systems that <span className="font-semibold text-accent">save time</span> and drive growth.
+                Rowptimizer helps small US businesses <span className="font-semibold text-primary">streamline operations</span> through expert Airtable configuration and workflow automation. We transform complex processes into simple, efficient systems that <span className="font-semibold text-primary">save time</span> and drive growth.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="mb-16">
             <span className="text-primary font-semibold text-sm tracking-wide">OUR WORKFLOW AUTOMATION SERVICES</span>
             <h2 className="text-5xl md:text-6xl font-poppins font-bold text-foreground mt-6 leading-tight">
-              Turn your business into a lean, mean <span className="bg-accent text-foreground px-3 py-1 inline-block">productivity</span> machine
+              Turn your business into a lean, mean <span className="bg-primary text-white px-3 py-1 inline-block">productivity</span> machine
             </h2>
           </div>
 
@@ -165,7 +165,7 @@ export default function Home() {
                 At Airtable and automation experts, we do so much more than just implement software. We work with you to understand your business, strategies the best software and automation solutions, and then implement those solutions to ensure your productivity and ROI are maximized.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                No more generic solutions. No more <span className="font-semibold text-accent">wasted hours</span>. Just custom-built workflows designed for your business — plus support and optimization to ensure your automations continue to drive maximum <span className="font-semibold text-accent">efficiency</span> and ROI as your business evolves.
+                No more generic solutions. No more <span className="font-semibold text-primary">wasted hours</span>. Just custom-built workflows designed for your business — plus support and optimization to ensure your automations continue to drive maximum <span className="font-semibold text-primary">efficiency</span> and ROI as your business evolves.
               </p>
             </div>
 
