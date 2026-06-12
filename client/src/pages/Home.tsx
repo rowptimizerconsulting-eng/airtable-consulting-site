@@ -34,8 +34,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white py-20 md:py-32">
-        <div className="container">
+      <section className="relative overflow-hidden py-20 md:py-32" style={{backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/hero-tech-bits-fQvRF59Zkyc8vNxmTVKx2q.webp)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="absolute inset-0 bg-white/85"></div>
+        <div className="container relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left: Text Content */}
             <div className="flex flex-col justify-center">
@@ -66,14 +67,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right: Visual Element */}
-            <div className="hidden md:flex justify-center">
-              <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/pasted_file_J3AhqI_image_27744f4c.png"
-                alt="Process optimization and workflow automation"
-                className="w-full h-auto"
-              />
-            </div>
+            {/* Right: Visual Element - Background pattern handles this */}
           </div>
         </div>
       </section>
@@ -150,7 +144,9 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 md:py-32 bg-white">
+      <section id="services" className="py-20 md:py-32 relative" style={{backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/services-tech-bits-nvNHHuCbbPP3zYxv6vbt9o.webp)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="absolute inset-0 bg-white/90"></div>
+        <div className="relative z-10">
         <div className="container">
           <div className="mb-16">
             <span className="text-primary font-semibold text-sm tracking-wide">OUR WORKFLOW AUTOMATION SERVICES</span>
@@ -169,14 +165,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex justify-center">
-              <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/pasted_file_a6tG0i_image_607e4f9f.png"
-                alt="Email and workflow automation"
-                className="w-full h-auto max-w-md"
-              />
-            </div>
+            {/* Visual element handled by background pattern */}
           </div>
+        </div>
         </div>
       </section>
 
