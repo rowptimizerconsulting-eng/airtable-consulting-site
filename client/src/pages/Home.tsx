@@ -34,9 +34,8 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 md:py-32" style={{backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/hero-tech-bits-fQvRF59Zkyc8vNxmTVKx2q.webp)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
-        <div className="absolute inset-0 bg-white/85"></div>
-        <div className="container relative z-10">
+      <section className="relative overflow-hidden py-20 md:py-32 bg-white">
+        <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left: Text Content */}
             <div className="flex flex-col justify-center">
@@ -67,7 +66,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right: Visual Element - Background pattern handles this */}
+            {/* Right: Hand-drawn illustration */}
+            <div className="hidden md:flex justify-center items-center">
+              <img 
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/hero-handdrawn-bits-WCa6PzXEAh5fzddvV5Py9t.webp"
+                alt="Tech bits and pixels illustration"
+                className="w-full h-auto max-w-sm"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -144,9 +150,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 md:py-32 relative" style={{backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/services-tech-bits-nvNHHuCbbPP3zYxv6vbt9o.webp)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
-        <div className="absolute inset-0 bg-white/90"></div>
-        <div className="relative z-10">
+      <section id="services" className="py-20 md:py-32 bg-white">
         <div className="container">
           <div className="mb-16">
             <span className="text-primary font-semibold text-sm tracking-wide">OUR WORKFLOW AUTOMATION SERVICES</span>
@@ -165,9 +169,15 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Visual element handled by background pattern */}
+            {/* Right: Hand-drawn illustration */}
+            <div className="hidden md:flex justify-center items-center">
+              <img 
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663507673027/BefCekVgxP8ipdJrgkEMws/services-handdrawn-bits-64kBHBG3MbcuQojPJCVBir.webp"
+                alt="Tech automation workflow illustration"
+                className="w-full h-auto max-w-sm"
+              />
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
